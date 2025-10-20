@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,9 +16,13 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
-            <div className="h-8 w-8 bg-blue-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">TYS</span>
-            </div>
+            <Image 
+              src="/LOGO TYS (2).png" 
+              alt="TYS Logo" 
+              width={32} 
+              height={32} 
+              className="rounded-lg"
+            />
             <span className="ml-2 text-xl font-bold text-gray-800">
               Tecnología y Servicios
             </span>

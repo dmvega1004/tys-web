@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Footer() {
   return (
     <footer className="bg-gray-800 text-white">
@@ -6,9 +8,13 @@ export default function Footer() {
           {/* Información de la empresa */}
           <div className="space-y-4">
             <div className="flex items-center">
-              <div className="h-8 w-8 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">TYS</span>
-              </div>
+              <Image 
+                src="/LOGO TYS (2).png" 
+                alt="TYS Logo" 
+                width={32} 
+                height={32} 
+                className="rounded-lg"
+              />
               <span className="ml-2 text-lg font-bold">
                 Tecnología y Servicios
               </span>
