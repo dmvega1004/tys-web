@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center">
               <Image 
-                src="/LOGO TYS (2).png" 
+                src="/logo-tys.png" 
                 alt="TYS Logo" 
                 width={32} 
                 height={32} 
