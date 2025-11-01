@@ -102,10 +102,10 @@ export default function Footer() {
                 Servicios
               </a>
               <a
-                href="#nosotros"
+                href="#galeria"
                 className="block text-gray-300 hover:text-white transition-colors duration-200"
               >
-                Nosotros
+                Galería
               </a>
               <a
                 href="#contacto"

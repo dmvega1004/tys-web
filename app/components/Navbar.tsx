@@ -44,10 +44,10 @@ export default function Navbar() {
                 Servicios
               </a>
               <a
-                href="#nosotros"
+                href="#galeria"
                 className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
               >
-                Nosotros
+                Galería
               </a>
               <a
                 href="#contacto"
@@ -119,10 +119,10 @@ export default function Navbar() {
             Servicios
           </a>
           <a
-            href="#nosotros"
+            href="#galeria"
             className="text-gray-600 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
           >
-            Nosotros
+            Galería
           </a>
           <a
             href="#contacto"
