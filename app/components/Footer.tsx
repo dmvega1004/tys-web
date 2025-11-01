@@ -108,6 +108,12 @@ export default function Footer() {
                 Galería
               </a>
               <a
+                href="#nosotros"
+                className="block text-gray-300 hover:text-white transition-colors duration-200"
+              >
+                Nosotros
+              </a>
+              <a
                 href="#contacto"
                 className="block text-gray-300 hover:text-white transition-colors duration-200"
               >

@@ -50,6 +50,12 @@ export default function Navbar() {
                 Galería
               </a>
               <a
+                href="#nosotros"
+                className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+              >
+                Nosotros
+              </a>
+              <a
                 href="#contacto"
                 className="text-gray-600 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
               >
@@ -123,6 +129,12 @@ export default function Navbar() {
             className="text-gray-600 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
           >
             Galería
+          </a>
+          <a
+            href="#nosotros"
+            className="text-gray-600 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
+          >
+            Nosotros
           </a>
           <a
             href="#contacto"

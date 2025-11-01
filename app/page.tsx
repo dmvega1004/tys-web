@@ -1,6 +1,7 @@
 import ServicesSection from "./components/ServicesSection";
-import ContactSection from "./components/ContactSection";
 import GallerySection from "./components/GallerySection";
+import AboutSection from "./components/AboutSection";
+import ContactSection from "./components/ContactSection";
 
 export default function Home() {
   return (
@@ -62,6 +63,7 @@ export default function Home() {
     </section>
     <ServicesSection />
     <GallerySection />
+    <AboutSection />
     <ContactSection />
     </>
   );
