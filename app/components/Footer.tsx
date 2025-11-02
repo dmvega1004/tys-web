@@ -2,9 +2,10 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-white">
+    <footer className="bg-[#0a0a0a] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
           {/* Información de la empresa */}
           <div className="space-y-4">
             <div className="flex items-center">
@@ -15,19 +16,19 @@ export default function Footer() {
                 height={32} 
                 className="rounded-lg"
               />
-              <span className="ml-2 text-lg font-bold">
+              <span className="ml-2 text-lg font-bold text-white">
                 Tecnología y Servicios
               </span>
             </div>
-            <p className="text-gray-300 text-sm">
+            <p className="text-white text-sm">
               Especialistas en instalaciones hidráulicas para estaciones de servicio
             </p>
           </div>
 
           {/* Información de contacto */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Contacto</h3>
-            <div className="space-y-2 text-sm text-gray-300">
+            <h3 className="text-lg font-semibold text-white">Contacto</h3>
+            <div className="space-y-2 text-sm text-white">
               <div className="flex items-start">
                 <svg
                   className="h-4 w-4 mr-2 text-blue-400 mt-1 flex-shrink-0"
@@ -87,38 +88,17 @@ export default function Footer() {
 
           {/* Enlaces rápidos */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold">Enlaces</h3>
+            <h3 className="text-lg font-semibold text-white">Enlaces</h3>
             <div className="space-y-2 text-sm">
-              <a
-                href="#inicio"
-                className="block text-gray-300 hover:text-white transition-colors duration-200"
-              >
-                Inicio
-              </a>
-              <a
-                href="#servicios"
-                className="block text-gray-300 hover:text-white transition-colors duration-200"
-              >
-                Servicios
-              </a>
-              <a
-                href="#galeria"
-                className="block text-gray-300 hover:text-white transition-colors duration-200"
-              >
-                Galería
-              </a>
-              <a
-                href="#nosotros"
-                className="block text-gray-300 hover:text-white transition-colors duration-200"
-              >
-                Nosotros
-              </a>
-              <a
-                href="#contacto"
-                className="block text-gray-300 hover:text-white transition-colors duration-200"
-              >
-                Contacto
-              </a>
+              {['Inicio', 'Servicios', 'Galería', 'Nosotros', 'Contacto'].map((item) => (
+                <a
+                  key={item}
+                  href={`#${item.toLowerCase()}`}
+                  className="block text-white hover:text-blue-300 transition-colors duration-200"
+                >
+                  {item}
+                </a>
+              ))}
             </div>
           </div>
         </div>
@@ -126,10 +106,10 @@ export default function Footer() {
         {/* Línea divisoria y copyright */}
         <div className="mt-8 pt-8 border-t border-gray-700">
           <div className="flex flex-col md:flex-row justify-between items-center">
-            <p className="text-gray-300 text-sm">
+            <p className="text-white text-sm">
               © 2024 TYS (Tecnología y Servicios para EDS). Todos los derechos reservados.
             </p>
-            <p className="text-gray-400 text-xs mt-2 md:mt-0">
+            <p className="text-gray-300 text-xs mt-2 md:mt-0">
               25 años de experiencia en el sector
             </p>
           </div>

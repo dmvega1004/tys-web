@@ -1,98 +1,89 @@
 @import "tailwindcss";
 
-/* 🎨 Paleta principal basada en el logo TyS */
+/* 🎨 Paleta de colores y tipografías */
 :root {
-  --background: #0a0a0a; /* fondo oscuro elegante */
-  --foreground: #f5f5f5; /* texto claro */
-  --primary: #0a0a0a;    /* dorado */
-  --accent: #e03c31;     /* rojo TyS */
-  --muted: #1c1c1c;      /* gris oscuro para secciones */
-  --border: #2a2a2a;     /* líneas suaves */
+  /* Colores base */
+  --background: #ffffff;   /* Fondo general del sitio */
+  --foreground: #171717;   /* Texto general en negro */
+  --primary: #b8860b;      /* Dorado oscuro (para títulos h1) */
+  --secondary: #0b1c4d;    /* Azul oscuro (para títulos h2) */
+  --muted: #1c1c1c;        /* Gris oscuro para secciones */
+  --border: #e5e7eb;       /* Líneas suaves y bordes */
 
+  /* Footer */
+  --footer-background: #130f2c; /* Fondo oscuro elegante */
+  --footer-text: #faf8f8;       /* Texto blanco en el footer */
+
+  /* Tipografías */
   --font-main: "Poppins", sans-serif;
   --font-alt: "Roboto", sans-serif;
 }
 
-/* 🌙 Modo oscuro */
+/* 🌓 Modo oscuro opcional (si lo implementas más adelante) */
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #000000;
-    --foreground: #f5f5f5;
-    --muted: #111111;
+    --background: #0a0a0a;
+    --foreground: #faf7f7;
   }
 }
 
-/* ✨ Variables que integran con el sistema de temas de Tailwind */
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --color-primary: var(--primary);
-  --color-accent: var(--accent);
-  --color-muted: var(--muted);
-  --font-sans: var(--font-main);
-}
-
-/* 🧱 Estilos base del cuerpo */
+/* 🎯 Estilos globales */
 body {
-  background-color: var(--background);
+  background: var(--background);
   color: var(--foreground);
   font-family: var(--font-main);
   line-height: 1.6;
-  letter-spacing: 0.3px;
-  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
 }
 
-/* 🧭 Mejoras generales */
-a {
-  color: var(--accent);
+/* 🏷️ Títulos */
+h1 {
+  color: var(--primary);
+  font-family: var(--font-main);
+  font-weight: 700;
+}
+
+h2 {
+  color: var(--secondary);
+  font-family: var(--font-main);
+  font-weight: 600;
+}
+
+/* ✍️ Texto general */
+p, span, li {
+  color: var(--foreground);
+  font-family: var(--font-alt);
+}
+
+/* ⚫ Footer */
+footer {
+  background-color: var(--footer-background);
+  color: var(--footer-text);
+}
+
+footer a {
+  color: var(--footer-text);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-a:hover {
-  color: var(--primary);
+footer a:hover {
+  color: #d1d5db; /* Gris claro al pasar el mouse */
 }
 
-/* 🪄 Botones base */
-button {
-  background-color: var(--accent);
-  color: #fff;
+/* Opcional: títulos dentro del footer */
+footer h3, footer h4 {
+  color: var(--footer-text);
   font-weight: 600;
-  padding: 0.6rem 1.2rem;
-  border-radius: 8px;
-  transition: all 0.3s ease;
+}
+footer {
+  color: #ffffff !important;
 }
 
-button:hover {
-  background-color: var(--primary);
-  color: #000;
-}
-
-/* ✴️ Secciones */
-section {
-  padding: 4rem 0;
-}
-
-h1, h2, h3 {
-  font-weight: 700;
-  color: var(--primary);
-}
-
-p {
-  color: var(--foreground);
-  font-size: 1rem;
-}
-
-/* 🔘 Tarjetas */
-.card {
-  background-color: var(--muted);
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 1.5rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 20px rgba(197, 164, 74, 0.2);
+footer p,
+footer span,
+footer a,
+footer h3 {
+  color: #ffffff !important;
 }
