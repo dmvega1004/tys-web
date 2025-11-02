@@ -19,10 +19,13 @@ export const metadata: Metadata = {
   title: "TYS - Tecnología y Servicios para EDS",
   description: "Especialistas en instalaciones hidráulicas para estaciones de servicio con 25 años de experiencia",
   icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon.png",
-    apple: "/apple-touch-icon.png",
+    icon: [
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    shortcut: ["/favicon.png"],
+    apple: ["/favicon.png"],
   },
+
 };
 
 export default function RootLayout({
