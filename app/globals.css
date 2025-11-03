@@ -25,16 +25,21 @@
   /* Título principal */
   h1 {
     color: #0b1c4d !important; /* Azul oscuro */
+    font-weight: 700; /* Negrilla */
   }
 
   /* Subtítulo */
   h2 {
     color: #1e3a8a !important; /* Azul un poco más claro */
+    font-weight: 500; /* Negrilla */
+
   }
 
   /* Título terciario */
   h3 {
-    color: #4b5563 !important; /* Gris oscuro */
+    color: #b8860b !important; /* Dorado*/
+    font-weight: 400; /* Negrilla */
+
   }
 
   /* Párrafos y texto general */
