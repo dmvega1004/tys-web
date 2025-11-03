@@ -139,9 +139,13 @@ export default function AboutSection() {
                   <FaAward className="text-white text-3xl flex-shrink-0" />
                   <div>
                     <h3 className="font-semibold text-xl mb-2">Certificación SIMEL</h3>
-                    <p className="text-blue-100">
-                      Nos encontramos inscritos en la <strong>Superintendencia de Industria y Comercio</strong> como reparadores <strong>(SIMEL)</strong>.
-                    </p>
+                    <p className="text-white font-light">
+                     Nos encontramos inscritos en la{" "}
+                     <strong className="font-semibold text-white">Superintendencia de Industria y Comercio</strong>{" "}
+                     como reparadores{" "}
+                     <strong className="font-semibold text-white">(SIMEL)</strong>.
+                     </p>
+
                   </div>
                 </div>
               </div>
