@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
-/* 🎨 Paleta de colores y tipografías */
+/* 🎨 PALETA DE COLORES Y TIPOGRAFÍAS */
 :root {
-  /* Colores base */
+  /* 🎨 Colores base */
   --background: #ffffff;   /* Fondo general del sitio */
   --foreground: #171717;   /* Texto general en negro */
   --primary: #b8860b;      /* Dorado oscuro (para títulos h1) */
@@ -10,16 +10,16 @@
   --muted: #1c1c1c;        /* Gris oscuro para secciones */
   --border: #e5e7eb;       /* Líneas suaves y bordes */
 
-  /* Footer */
+  /* ⚫ Footer */
   --footer-background: #130f2c; /* Fondo oscuro elegante */
   --footer-text: #faf8f8;       /* Texto blanco en el footer */
 
-  /* Tipografías */
+  /* 🔤 Tipografías */
   --font-main: "Poppins", sans-serif;
   --font-alt: "Roboto", sans-serif;
 }
 
-/* 🌓 Modo oscuro opcional (si lo implementas más adelante) */
+/* 🌓 Modo oscuro opcional */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -27,7 +27,7 @@
   }
 }
 
-/* 🎯 Estilos globales */
+/* 🌐 Estilos globales */
 body {
   background: var(--background);
   color: var(--foreground);
@@ -51,12 +51,14 @@ h2 {
 }
 
 /* ✍️ Texto general */
-p, span, li {
+p,
+span,
+li {
   color: var(--foreground);
   font-family: var(--font-alt);
 }
 
-/* ⚫ Footer */
+/* ⚫ FOOTER */
 footer {
   background-color: var(--footer-background);
   color: var(--footer-text);
@@ -72,18 +74,27 @@ footer a:hover {
   color: #d1d5db; /* Gris claro al pasar el mouse */
 }
 
-/* Opcional: títulos dentro del footer */
-footer h3, footer h4 {
+/* Títulos dentro del footer */
+footer h3,
+footer h4 {
   color: var(--footer-text);
   font-weight: 600;
 }
-footer {
-  color: #ffffff !important;
-}
 
+/* Asegurar que todo el texto del footer sea blanco */
 footer p,
 footer span,
 footer a,
 footer h3 {
   color: #ffffff !important;
+}
+
+/* 🌅 ENCABEZADO (SECCIÓN HERO) */
+#inicio,
+#inicio h1,
+#inicio h2,
+#inicio p,
+#inicio span,
+#inicio li {
+  color: #ffffff !important; /* Texto blanco solo dentro del encabezado */
 }
