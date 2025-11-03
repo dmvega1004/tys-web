@@ -140,10 +140,10 @@ export default function AboutSection() {
                   <div>
                     <h3 className="font-semibold text-xl mb-2">Certificación SIMEL</h3>
                     <p className="text-white font-light">
-                     Nos encontramos inscritos en la{" "}
-                     <strong className="font-semibold text-white">Superintendencia de Industria y Comercio</strong>{" "}
-                     como reparadores{" "}
-                     <strong className="font-semibold text-white">(SIMEL)</strong>.
+                     <strong className="text-white">Nos encontramos inscritos en la</strong>{" "}
+                     <strong className="font-bold italic text-white">Superintendencia de Industria y Comercio</strong>{" "}
+                       <strong className="text-white">como reparadores</strong>{" "}
+                     <strong className="font-bold italic text-white">(SIMEL)</strong>.
                      </p>
 
                   </div>
