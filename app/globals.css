@@ -67,6 +67,10 @@
   .contact-link:hover {
     color: #1e3a8a !important; /* azul al pasar el mouse */
   }
+  .simel-title {
+    color: #ffffff !important; /* blanco */
+    font-weight: 700 !important; /* negrilla */
+  }
 }
 
 

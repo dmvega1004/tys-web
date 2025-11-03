@@ -138,8 +138,8 @@ export default function AboutSection() {
                 <div className="flex items-center space-x-4">
                   <FaAward className="text-white text-3xl flex-shrink-0" />
                   <div>
-                  <h3 className="font-bold text-xl mb-2 text-white">
-                   Certificación SIMEL
+                  <h3 className="font-bold text-xl mb-2 text-white simel-title">
+                  Certificación SIMEL
                   </h3>
 
                     <p className="text-white font-light">

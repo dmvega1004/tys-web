@@ -27,7 +27,7 @@ export default function ContactSection() {
               <h3 className="font-semibold text-gray-800 mb-1">Teléfono</h3>
               <div className="text-gray-600 space-y-1">
                 <a href="tel:+573105305058" className="contact-link">
-                  310 530 5058
+                  310 530 5058<br />
                 </a>
                 <a href="tel:+573153065968" className="contact-link">
                   315 306 5968
