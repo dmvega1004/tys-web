@@ -18,6 +18,17 @@
   --font-main: "Poppins", sans-serif;
   --font-alt: "Roboto", sans-serif;
 }
+/* 📱 Ajustes específicos para pantallas pequeñas */
+@media (max-width: 768px) {
+  h1, h2, h3, p, span, li {
+    color: #111 !important; /* negro oscuro visible en móviles */
+  }
+
+  a {
+    color: #0b1c4d !important; /* azul oscuro para enlaces */
+  }
+}
+
 
 /* 🌓 Modo oscuro opcional */
 @media (prefers-color-scheme: dark) {
