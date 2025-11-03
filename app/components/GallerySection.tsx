@@ -170,13 +170,7 @@ export default function GallerySection() {
           </div>
         )}
 
-        {/* Mensaje si no hay imágenes cargadas */}
-        <div className="mt-12 text-center text-gray-500 text-sm">
-          <p>
-            💡 <strong>Nota:</strong> Para agregar tus propias imágenes, colócalas en la carpeta{" "}
-            <code className="bg-gray-100 px-2 py-1 rounded">public/galeria/</code> y actualiza los nombres en el componente.
-          </p>
-        </div>
+    
       </div>
     </section>
   );

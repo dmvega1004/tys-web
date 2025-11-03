@@ -19,7 +19,6 @@
   --font-alt: "Roboto", sans-serif;
 }
 /* 📱 Ajustes específicos para pantallas pequeñas */
-/* 📱 Ajustes específicos para pantallas pequeñas */
 @media (max-width: 768px) {
 
   /* Título principal */
@@ -50,6 +49,16 @@
   /* Enlaces */
   a {
     color: #f3f4f7 !important; /* Azul de enlaces */
+  }
+  
+  /* Enlaces del menú móvil */
+  .menu-link {
+    color: #000000 !important; /* negro */
+  }
+
+  /* Enlaces del bloque de contacto */
+  .contact-link {
+    color: #000000 !important; /* negro */
   }
 }
 
