@@ -138,7 +138,10 @@ export default function AboutSection() {
                 <div className="flex items-center space-x-4">
                   <FaAward className="text-white text-3xl flex-shrink-0" />
                   <div>
-                    <h3 className="font-semibold text-xl mb-2">Certificación SIMEL</h3>
+                  <h3 className="font-semibold text-xl mb-2 text-white md:text-white">
+                   Certificación SIMEL
+                  </h3>
+
                     <p className="text-white font-light">
                      <strong className="text-white">Nos encontramos inscritos en la</strong>{" "}
                      <strong className="font-bold italic text-white">Superintendencia de Industria y Comercio</strong>{" "}
