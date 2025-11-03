@@ -19,13 +19,32 @@
   --font-alt: "Roboto", sans-serif;
 }
 /* 📱 Ajustes específicos para pantallas pequeñas */
+/* 📱 Ajustes específicos para pantallas pequeñas */
 @media (max-width: 768px) {
-  h1, h2, h3, p, span, li {
-    color: #111 !important; /* negro oscuro visible en móviles */
+
+  /* Título principal */
+  h1 {
+    color: #0b1c4d !important; /* Azul oscuro */
   }
 
+  /* Subtítulo */
+  h2 {
+    color: #1e3a8a !important; /* Azul un poco más claro */
+  }
+
+  /* Título terciario */
+  h3 {
+    color: #4b5563 !important; /* Gris oscuro */
+  }
+
+  /* Párrafos y texto general */
+  p, span, li {
+    color: #111 !important; /* Negro oscuro */
+  }
+
+  /* Enlaces */
   a {
-    color: #0b1c4d !important; /* azul oscuro para enlaces */
+    color: #f3f4f7 !important; /* Azul de enlaces */
   }
 }
 
