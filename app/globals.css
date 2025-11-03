@@ -21,44 +21,48 @@
 /* 📱 Ajustes específicos para pantallas pequeñas */
 @media (max-width: 768px) {
 
-  /* Título principal */
+  /* 🟦 Título principal */
   h1 {
     color: #0b1c4d !important; /* Azul oscuro */
     font-weight: 700; /* Negrilla */
   }
 
-  /* Subtítulo */
+  /* 🟦 Subtítulo */
   h2 {
-    color: #1e3a8a !important; /* Azul un poco más claro */
+    color: #1e3a8a !important; /* Azul más claro */
     font-weight: 500; /* Negrilla */
-
   }
 
-  /* Título terciario */
+  /* 🟨 Título terciario */
   h3 {
-    color: #b8860b !important; /* Dorado*/
+    color: #b8860b !important; /* Dorado */
     font-weight: 400; /* Negrilla */
-
   }
 
-  /* Párrafos y texto general */
+  /* 🖤 Texto general */
   p, span, li {
     color: #111 !important; /* Negro oscuro */
   }
 
-  /* Enlaces */
+  /* ⚪ Enlaces generales (por defecto) */
   a {
-    color: #f3f4f7 !important; /* Azul de enlaces */
-  }
-  
-  /* Enlaces del menú móvil */
-  .menu-link {
-    color: #000000 !important; /* negro */
+    color: #f3f4f7 !important; /* Blanco (para visibilidad general) */
   }
 
-  /* Enlaces del bloque de contacto */
+  /* 🖤 Enlaces del menú móvil */
+  .mobile-menu a {
+    color: #000 !important; /* Negro */
+    font-weight: 500;
+  }
+
+  .mobile-menu a:hover {
+    color: #1e3a8a !important; /* Azul oscuro al pasar el dedo/mouse */
+  }
+
+  /* 🖤 Enlaces del bloque de contacto */
   .contact-link {
-    color: #000000 !important; /* negro */
+    color: #000 !important; /* Negro */
+    font-weight: 500;
   }
 }
 
