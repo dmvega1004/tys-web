@@ -64,6 +64,9 @@
     color: #000 !important; /* Negro */
     font-weight: 500;
   }
+  .contact-link:hover {
+    color: #1e3a8a !important; /* azul al pasar el mouse */
+  }
 }
 
 

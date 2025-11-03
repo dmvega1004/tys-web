@@ -26,10 +26,10 @@ export default function ContactSection() {
             <div>
               <h3 className="font-semibold text-gray-800 mb-1">Teléfono</h3>
               <div className="text-gray-600 space-y-1">
-                <a href="tel:+573105305058" className="block hover:text-blue-600 transition-colors">
+                <a href="tel:+573105305058" className="contact-link">
                   310 530 5058
                 </a>
-                <a href="tel:+573153065968" className="block hover:text-blue-600 transition-colors">
+                <a href="tel:+573153065968" className="contact-link">
                   315 306 5968
                 </a>
               </div>
@@ -43,7 +43,7 @@ export default function ContactSection() {
                 href="https://wa.me/573105305058" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-gray-600 hover:text-green-600 transition-colors"
+                className="contact-link"
               >
                 +57 310 530 5058
               </a>
@@ -55,7 +55,7 @@ export default function ContactSection() {
               <h3 className="font-semibold text-gray-800 mb-1">Correo</h3>
               <a 
                 href="mailto:tysestacionesdeservicio@gmail.com" 
-                className="text-gray-600 hover:text-blue-600 transition-colors break-all"
+                className="contact-link"
               >
                 tysestacionesdeservicio@gmail.com
               </a>
